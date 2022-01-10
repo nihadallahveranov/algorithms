@@ -2,7 +2,6 @@
 #include<cmath>
 #include<cstring>
 #include<iomanip>
-using namespace std;
 int main(){
     int n,num=0;
     std::cin >> n;
@@ -44,15 +43,15 @@ int main(){
                 }
             }
             if (num>0){
-                std::cout << "NO" << endl;
+                std::cout << "NO" << std::endl;
             }
             else if (num==0){
-                std::cout << "YES" << endl;
+                std::cout << "YES" << std::endl;
             }
             num=0;
         }
         else{
-            std::cout << "NO" << endl;
+            std::cout << "NO" << std::endl;
         }
     }
 }
