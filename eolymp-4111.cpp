@@ -5,10 +5,10 @@
 using namespace std;
 int main(){
     int n,num=0;
-    cin >> n;
-    string str[n],str2[n];
+    std::cin >> n;
+    std::string str[n],str2[n];
     for ( int i = 0 ; i < n ; i++){
-        cin >> str[i] >> str2[i];
+        std::cin >> str[i] >> str2[i];
     }
     for ( int i = 0 ; i < n ; i++){
         int size=str[i].size();
@@ -44,15 +44,15 @@ int main(){
                 }
             }
             if (num>0){
-                cout << "NO" << endl;
+                std::cout << "NO" << endl;
             }
             else if (num==0){
-                cout << "YES" << endl;
+                std::cout << "YES" << endl;
             }
             num=0;
         }
         else{
-            cout << "NO" << endl;
+            std::cout << "NO" << endl;
         }
     }
 }
