@@ -4,6 +4,7 @@
 #include <cmath>
 #include <algorithm>
 #include <random>
+#include <printf.h>
 int main(){
     std::string brackets;
     unsigned short test, index;
