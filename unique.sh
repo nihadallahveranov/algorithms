@@ -19,7 +19,7 @@ function unique_elements(){
 		fi
 	done
 }
-echo -e "Enter the size: \c"     # first step
+echo -e "Enter the size: \c"     # first step (Entry Point)
 read size                            # input size of array
 for (( i = 0 ; i < size ; i++ ))
 do
