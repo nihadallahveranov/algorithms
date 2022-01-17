@@ -9,13 +9,13 @@ int main(){
     for ( ; i < n ; i++){
         scanf("%d", &a[i]);
         if (min > a[i]){
-            min=a[i];
+            min = a[i];
         }
     }
-    int min2=a[0];
+    int min2 = a[0];
     for ( i = 0 ; i < n ; i++){
-        if (min!=a[i] && min2 > a[i]){
-            min2=a[i];
+        if (min != a[i] && min2 > a[i]){
+            min2 = a[i];
         }
     }
     printf("%d %d", min, min2);
