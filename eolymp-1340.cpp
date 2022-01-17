@@ -5,7 +5,7 @@
 int main(){
     short n;
     while (std::cin >> n){
-        if (n==0){
+        if (n == 0){
             return 0;
         }
         for ( short i = 0 ; i < n ; i++){
