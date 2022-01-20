@@ -4,7 +4,7 @@
 #include <cmath>
 void max_frequency(std::string* ptr, short n){
     short max = 0, count = 0;
-    for ( short i = n -1  ; i >= 0 ; i-- ){
+    for ( short i = n - 1  ; i >= 0 ; i-- ){
         for ( short j = n - 1 ; j >= 0 ; j-- ){
             ( ptr[i] == ptr[j] ) ? count++ : count = count;
         }
@@ -12,7 +12,7 @@ void max_frequency(std::string* ptr, short n){
         count = 0;
     }
     char max_ascii_letter = 0;
-    for ( short i = n -1  ; i >= 0 ; i-- ){
+    for ( short i = n - 1  ; i >= 0 ; i-- ){
         for ( short j = n - 1 ; j >= 0 ; j-- ){
             ( ptr[i] == ptr[j] ) ? count++ : count = count;
         }
