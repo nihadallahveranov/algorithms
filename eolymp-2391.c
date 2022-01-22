@@ -5,13 +5,13 @@ int main(){
     short a,b;
     int n;
     scanf("%hd %hd %d", &a, &b, &n);
-    if (n==0){
+    if ( n == 0 ){
         printf("0");
         return 0;
     }
-    int sum = a+(n/60)*b;
-    if ((n/60)*60!=n){
-        sum=sum+b;
+    int sum = a + ( n / 60 ) * b;
+    if ( ( n / 60 ) * 60 != n ){
+        sum+=b;
     }
     printf("%d", sum);
 }
