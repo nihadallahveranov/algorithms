@@ -1,0 +1,6 @@
+/Users/nihadallahveranov/OneDrive/OneDrive - NATIONAL AVIATION ACADEMY/smprest/smprest/bin/Debug/smprest.exe
+/Users/nihadallahveranov/OneDrive/OneDrive - NATIONAL AVIATION ACADEMY/smprest/smprest/bin/Debug/smprest.pdb
+/Users/nihadallahveranov/OneDrive/OneDrive - NATIONAL AVIATION ACADEMY/smprest/smprest/obj/Debug/smprest.csproj.AssemblyReference.cache
+/Users/nihadallahveranov/OneDrive/OneDrive - NATIONAL AVIATION ACADEMY/smprest/smprest/obj/Debug/smprest.csproj.CoreCompileInputs.cache
+/Users/nihadallahveranov/OneDrive/OneDrive - NATIONAL AVIATION ACADEMY/smprest/smprest/obj/Debug/smprest.exe
+/Users/nihadallahveranov/OneDrive/OneDrive - NATIONAL AVIATION ACADEMY/smprest/smprest/obj/Debug/smprest.pdb

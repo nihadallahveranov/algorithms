@@ -1,0 +1,5 @@
+.vs/*
+.vscode/*
+.DS_Store
+smprest/.DS_Store
+linked_list_library/example.c
